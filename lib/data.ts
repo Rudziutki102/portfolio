@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import forbetImg from '@/public/forbet.png'
-import lottoImg from '@/public/lotto.png'
+import dashboardIMG from '@/public/dashboard.png'
+import discordIMG from '@/public/discord.png'
+import placeHolder from '@/public/placeholder.webp'
 export const links = [
   {
     name: "Home",
@@ -60,18 +60,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Forbet",
+    title: "NDA Project",
     description:
-      "I worked on this project during my time at the company as a front-end developer, handling the frontend layer as well as user verification through bank accounts.",
+      "Contributed to the development and implementation of multiple features, including the user registration process, bet placement flow, and payment integration using Next.js, TypeScript, Redux. ",
     tags: ["React", "Next.js", "Tailwind",'ReactQuery'],
-    imageUrl: forbetImg,
+    imageUrl: placeHolder,
   },
   {
-    title: "PremierLotoBet",
+    title: "NDA Project",
     description:
-      "This project was an opportunity for me to practice skills related to automated testing using the Cypress technology.",
+      "Designed and executed comprehensive Cypress test cases to ensure functionality and reliability across these platforms",
     tags: ["React", "TypeScript",'ReactQuery','Cypress'],
-    imageUrl: lottoImg,
+    imageUrl: placeHolder,
+  },
+  {
+    title: "Attendance bot (Discord.js)",
+    description:
+      "I have developed a Discord bot using discord.js and Express. The bot is capable of tracking all user group entries and uploads the data to a MongoDB database using Mongoose.",
+    tags: ["Node.js", "Express.js",'MongoDB','Mongoose'],
+    imageUrl: discordIMG,
+  },
+  {
+    title: "Attendance bot dashboard",
+    description:
+      "I have created a dashboard that displays information sent from the bot using Server Sent Events, with addition to a chart.js graph based on attendance of users in my discord channel.",
+    tags: ["React.js", "Node.js",'MongoDB','Chart.js','Shadcn',"Server Sent Events"],
+    imageUrl: dashboardIMG,
   },
 ] as const;
 
@@ -83,6 +97,13 @@ export const skillsData = [
   "React",
   "Next.js",
   'NPM',
+  'Mongoose',
+  'Express.js',
+  'Node.js',
+  'Discord.js',
+  'Cypress',
+  'Zustand',
+  'Recoil',
   "Git",
   "Tailwind",
   "Styled Components",
