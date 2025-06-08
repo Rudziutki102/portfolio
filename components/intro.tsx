@@ -67,7 +67,7 @@ export default function Intro() {
                     setActiveSection('Contact')
                     setTimeOfLastClick(Date.now())
                 }}>Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' /></Link>
-                <a className='border border-black/10 cursor-pointer bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 group active:scale-105 transition dark:bg-white/10' href="/Mateusz_Makowski_resume.pdf" download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' /></a>
+                <a className='border border-black/10 cursor-pointer bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 group active:scale-105 transition dark:bg-white/10' href="/mateusz_makowski_resume_en.pdf" download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' /></a>
                 <a href="https://www.linkedin.com/in/mateusz-makowski-650155196/" target='_blank' className='border border-black/10 cursor-pointer bg-white p-4 flex text-gray-700 dark:text-white/60 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 group active:scale-105 transition dark:bg-white/10'><BsLinkedin /></a>
                 <a target='_blank' href="https://github.com/Rudziutki102?tab=repositories" className='border border-black/10 cursor-pointer dark:bg-white/10 bg-white p-4 dark:text-white/60 flex text-gray-700 items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 group active:scale-105 transition'><FaGithubSquare /></a>
             </motion.div>
